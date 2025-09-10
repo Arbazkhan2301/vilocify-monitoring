@@ -1,4 +1,5 @@
 import io
+import os
 import json
 import logging
 from datetime import datetime, timedelta, UTC
@@ -16,6 +17,7 @@ from vilocify.match import MissingPurlError
 # Configure your API token here
 # -------------------------
 api_config.token = "TuWDfThoCwg5tJJJibENFKtsYEn7afa2ArT73WeFCL89Z4VjefJQPFaeUT9pGocb"
+
 
 # -------------------------
 # Logging Setup
@@ -104,11 +106,9 @@ def update_monitoring_list(ml: MonitoringList, components: list[Component]) -> N
 # -------------------------
 # Fetch notifications since some days ago
 # -------------------------
-def fetch_notifications(ml_id: str, since_days: int = 2) -> list[Notification]:
-    since = datetime.now(tz=UTC) - timedelta(days=since_days)
+def fetch_notifications(ml_id: str) -> list[Notification]:
     notifications = (
         Notification.where("monitoringLists.id", "any", ml_id)
-        .where("createdAt", "after", since.isoformat())
         .all()
     )
     return notifications
@@ -117,6 +117,24 @@ def fetch_notifications(ml_id: str, since_days: int = 2) -> list[Notification]:
 # -------------------------
 # Print notifications with vulnerabilities
 # -------------------------
+# def print_notifications(notifications: list[Notification]) -> None:
+#     if not notifications:
+#         print("\nNo notifications found.")
+#         return
+
+#     print(f"\nFound {len(notifications)} notifications:\n")
+
+#     for notification in notifications:
+#         print("\n---")
+#         print("Title:", notification.title)
+#         print("Description:\n", notification.description)
+#         print("Vulnerabilities:")
+#         vuln_ids = list(notification.vulnerabilities.ids())
+#         for vuln in Vulnerability.where("id", "in", vuln_ids):
+#             print(f"  • CVE: {vuln.cve}")
+#             print(f"    CVSS: {vuln.cvss}")
+#             print(f"    Description: {vuln.description}")
+
 def print_notifications(notifications: list[Notification]) -> None:
     if not notifications:
         print("\nNo notifications found.")
@@ -125,14 +143,22 @@ def print_notifications(notifications: list[Notification]) -> None:
     print(f"\nFound {len(notifications)} notifications:\n")
 
     for notification in notifications:
-        print("\n---")
         print("Title:", notification.title)
         print("Description:\n", notification.description)
         print("Vulnerabilities:")
-        for vuln in Vulnerability.where("id", "in", notification.vulnerabilities.ids()):
-            print(f"  • CVE: {vuln.cve}")
-            print(f"    CVSS: {vuln.cvss}")
-            print(f"    Description: {vuln.description}")
+
+        # Safely get vulnerability IDs
+        vuln_ids = list(notification.vulnerabilities.ids()) if notification.vulnerabilities else []
+
+        if not vuln_ids:
+            print("No vulnerabilities linked.")
+            continue
+
+        for vuln in Vulnerability.where("id", "in", vuln_ids):
+            print(f"  CVE: {vuln.cve}")
+            print(f"  CVSS: {vuln.cvss}")
+            print(f"  Description: {vuln.description}")
+
 
 
 # -------------------------
