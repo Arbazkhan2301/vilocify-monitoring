@@ -18,6 +18,30 @@ from vilocify.match import MissingPurlError
 # -------------------------
 api_config.token = "TuWDfThoCwg5tJJJibENFKtsYEn7afa2ArT73WeFCL89Z4VjefJQPFaeUT9pGocb"
 
+api_request_counter = 0
+
+def count_and_call(method):
+    def wrapper(*args, **kwargs):
+        global api_request_counter
+        api_request_counter += 1
+        # print(f"API Request #{api_request_counter}: {method.__name__}")
+        return method(*args, **kwargs)
+    return wrapper
+
+api_methods = [
+    "where",
+    "first",
+    "create",
+    "update",
+    "all",
+]
+
+for cls in [MonitoringList, Component, Notification, Vulnerability]:
+    for method_name in api_methods:
+        if hasattr(cls, method_name):
+            original_method = getattr(cls, method_name)
+            wrapped_method = count_and_call(original_method)
+            setattr(cls, method_name, wrapped_method)
 
 # -------------------------
 # Logging Setup
@@ -117,24 +141,6 @@ def fetch_notifications(ml_id: str) -> list[Notification]:
 # -------------------------
 # Print notifications with vulnerabilities
 # -------------------------
-# def print_notifications(notifications: list[Notification]) -> None:
-#     if not notifications:
-#         print("\nNo notifications found.")
-#         return
-
-#     print(f"\nFound {len(notifications)} notifications:\n")
-
-#     for notification in notifications:
-#         print("\n---")
-#         print("Title:", notification.title)
-#         print("Description:\n", notification.description)
-#         print("Vulnerabilities:")
-#         vuln_ids = list(notification.vulnerabilities.ids())
-#         for vuln in Vulnerability.where("id", "in", vuln_ids):
-#             print(f"  • CVE: {vuln.cve}")
-#             print(f"    CVSS: {vuln.cvss}")
-#             print(f"    Description: {vuln.description}")
-
 def print_notifications(notifications: list[Notification]) -> None:
     if not notifications:
         print("\nNo notifications found.")
@@ -202,3 +208,4 @@ def main(sbom_file_path: str):
 
 if __name__ == "__main__":
     main("bom.json")
+    print(f"\nTotal API requests made: {api_request_counter}")
