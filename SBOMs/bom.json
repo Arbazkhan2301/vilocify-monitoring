@@ -1,0 +1,115 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2025-09-23T11:06:05Z",
+        "tools": [
+            {
+                "vendor": "Eclipse Foundation",
+                "name": "SW360",
+                "version": "18.1.0-m2"
+            }
+        ],
+        "component": {
+            "author": "khan.arbaz@siemens.com",
+            "group": "IN SO MN AMA",
+            "name": "COBRA 02 S",
+            "version": "V1.0",
+            "description": "Die Bremse COBRA 02 S ist eine mehrkanalig geregelte Fahr- und Sicherheitsbremse für Förderma- schinen. Im normalen Betrieb wird die Maschine durch den Antrieb gefahren und stillgesetzt. Die Bremse dient dabei als Haltebremse, wenn der Antrieb ausgeschaltet wird. Im Fehlerfall bzw. bei Aus- fall des Antriebs kann die Bremse durch eine Sicherheitsbremsung die Maschine zum Stillstand brin- gen. Bei einer Sicherheitsbremsung wird die Maschine geregelt an einer Geschwindigkeitsrampe in- nerhalb weniger Sekunden zum Stillstand gebracht. Tritt ein Fehler innerhalb der Bremse auf, so ist die Bremse immer noch in der Lage sicher stillzusetzen. Es gibt keine weitere Möglichkeit eine Förder- maschine mechanisch stillzusetzen. Ist der Antrieb defekt kann mittels der Fahrbremse und Schwer- kraft die Fördermaschine bewegt werden.",
+            "type": "application"
+        }
+    },
+    "components": [
+        {
+            "name": "CM 1542-1",
+            "version": "V3.0",
+            "description": ""
+        },
+        {
+            "name": "TM Count",
+            "version": "V2.0",
+            "description": ""
+        },
+        {
+            "name": "CM 1542-5",
+            "version": "V3.1",
+            "description": ""
+        },
+        {
+            "name": "S7-1500 CPU",
+            "version": "V3.1",
+            "description": ""
+        },
+        {
+            "name": "Siemens TIA Portal",
+            "version": "V18",
+            "description": ""
+        },
+        {
+            "name": "DP/DP-Koppler",
+            "version": "B0",
+            "description": ""
+        },
+        {
+            "name": "S7-1500 CPU",
+            "version": "V2.9",
+            "description": ""
+        },
+        {
+            "name": "PN/PN-Koppler",
+            "version": "V4.2",
+            "description": ""
+        },
+        {
+            "name": "Siemens Step 7 Safety",
+            "version": "V19",
+            "description": ""
+        },
+        {
+            "name": "Siemens TIA Portal",
+            "version": "V19",
+            "description": ""
+        },
+        {
+            "name": "S7-1500 CPU",
+            "version": "V3.0",
+            "description": ""
+        },
+        {
+            "name": "TM PosInput",
+            "version": "V2.0",
+            "description": ""
+        },
+        {
+            "name": "CM 1542-1",
+            "version": "V4.0",
+            "description": ""
+        },
+        {
+            "name": "CM 1542-5",
+            "version": "V2.0",
+            "description": ""
+        },
+        {
+            "name": "Siemens Step 7 Safety",
+            "version": "V18",
+            "description": ""
+        },
+        {
+            "name": "ET200SP IM 155-6",
+            "version": "V6.1",
+            "description": ""
+        },
+        {
+            "name": "ET200SP IM 155-6",
+            "version": "V4.2",
+            "description": ""
+        },
+        {
+            "name": "Bremshebel",
+            "version": "V2.3",
+            "description": "Bremshebel von Sphon +Burkhard"
+        }
+    ]
+}

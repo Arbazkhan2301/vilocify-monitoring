@@ -3,7 +3,7 @@
     "specVersion": "1.4",
     "version": 1,
     "metadata": {
-        "timestamp": "2025-09-09T13:56:39Z",
+        "timestamp": "2025-09-23T09:46:58Z",
         "tools": [
             {
                 "vendor": "Eclipse Foundation",
@@ -14,9 +14,9 @@
         "component": {
             "author": "khan.arbaz@siemens.com",
             "group": "IN AM RC-CL DB",
-            "name": "AHA / model-DriveControl-ccv-refrigeration / Back",
+            "name": "AHA / model-MillMechanics-accumulator-pressure / Back",
             "version": "1.0",
-            "description": "The solution considers an intuitive system for the Asset Health Analytics for Gearless Mill Drives with connection to the Cloud as well as on premise solution. Module: model-DriveControl-ccv-refrigeration / Back",
+            "description": "The solution considers an intuitive system for the Asset Health Analytics for Gearless Mill Drives with connection to the Cloud as well as on premise solution. Module: model-MillMechanics-accumulator-pressure / Back",
             "type": "application"
         }
     },

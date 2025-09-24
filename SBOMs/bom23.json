@@ -1,0 +1,2462 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2025-09-23T10:56:42Z",
+        "tools": [
+            {
+                "vendor": "Eclipse Foundation",
+                "name": "SW360",
+                "version": "18.1.0-m2"
+            }
+        ],
+        "component": {
+            "author": "khan.arbaz@siemens.com",
+            "group": "IN MVD ADI 7 DAI",
+            "name": "centralhierarchymanagement",
+            "version": "1.0.0.76335bfa",
+            "description": "Central service for managing customer and plant hierarchies for assets created within central asset management",
+            "type": "application"
+        }
+    },
+    "components": [
+        {
+            "name": "com.google.errorprone/error_prone_annotations",
+            "version": "2.21.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.21.1?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://errorprone.info/error_prone_annotations"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.httpcomponents/httpcore",
+            "version": "4.4.13",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "http://hc.apache.org/httpcomponents-core-ga"
+                }
+            ]
+        },
+        {
+            "name": "Swashbuckle.AspNetCore.Annotations",
+            "version": "6.5.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Swashbuckle.AspNetCore.Annotations@6.5.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore"
+                }
+            ]
+        },
+        {
+            "name": "System.IO.Pipelines",
+            "version": "8.0.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/System.IO.Pipelines@8.0.0"
+        },
+        {
+            "name": "com.fasterxml.jackson.core/jackson-core",
+            "version": "2.17.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.17.2?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/FasterXML/jackson-core"
+                }
+            ]
+        },
+        {
+            "name": "com.squareup.okhttp3/okhttp",
+            "version": "4.12.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.squareup.okhttp3/okhttp@4.12.0?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://square.github.io/okhttp/"
+                }
+            ]
+        },
+        {
+            "name": "org.xerial.snappy/snappy-java",
+            "version": "1.1.10.5",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.5?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/xerial/snappy-java"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.commons/commons-compress",
+            "version": "1.26.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.commons/commons-compress@1.26.1?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://commons.apache.org/proper/commons-compress/"
+                }
+            ]
+        },
+        {
+            "name": "org.checkerframework/checker-qual",
+            "version": "3.37.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.checkerframework/checker-qual@3.37.0?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://checkerframework.org/"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch.client/elasticsearch-rest-client",
+            "version": "8.16.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.elasticsearch.client/elasticsearch-rest-client@8.16.0?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/elastic/elasticsearch.git"
+                }
+            ]
+        },
+        {
+            "name": "io.github.resilience4j/resilience4j-core",
+            "version": "2.2.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/io.github.resilience4j/resilience4j-core@2.2.0?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://resilience4j.readme.io"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.httpcomponents/httpasyncclient",
+            "version": "4.1.5",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.httpcomponents/httpasyncclient@4.1.5?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "http://hc.apache.org/httpcomponents-asyncclient"
+                }
+            ]
+        },
+        {
+            "name": "System.Diagnostics.EventLog",
+            "version": "6.0.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Zlib"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MICROSOFT SOFTWARE-LICENSE-TERMS-.NET-LIBRARY"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "W3C"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC-BY-SA-3.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "ISC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "HP-1989"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-4-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC-BY-4.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "NCSA"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "bzip2-1.0.8"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "APSL-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Unicode-TOU"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "IETF"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC-PDDC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC0-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "W3C-20150513"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0 WITH LLVM-exception"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/System.Diagnostics.EventLog@6.0.0"
+        },
+        {
+            "name": "xunit.assert",
+            "version": "2.6.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/xunit.assert@2.6.2",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/xunit/xunit"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.jackson.core/jackson-annotations",
+            "version": "2.16.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.16.2?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/FasterXML/jackson"
+                }
+            ]
+        },
+        {
+            "name": "org.jetbrains.kotlin/kotlin-stdlib-jdk8",
+            "version": "1.8.21",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSL-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Zlib"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "curl"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "EDL-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "JSON"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Unicode-TOU"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "EPL-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.1-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC0-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-with-classpath-exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "NPL-1.1"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Third Party Notice File"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "snprintf"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "blessing"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.21?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://kotlinlang.org/"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.jackson.core/jackson-databind",
+            "version": "2.16.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.16.2?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/FasterXML/jackson"
+                }
+            ]
+        },
+        {
+            "name": "org.lz4/lz4-java",
+            "version": "1.8.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.lz4/lz4-java@1.8.0?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/lz4/lz4-java"
+                }
+            ]
+        },
+        {
+            "name": "System.IdentityModel.Tokens.Jwt",
+            "version": "8.2.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Third Party Notice File"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/System.IdentityModel.Tokens.Jwt@8.2.1",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet"
+                }
+            ]
+        },
+        {
+            "name": "Microsoft.Extensions.FileProviders.Physical",
+            "version": "8.0.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Microsoft.Extensions.FileProviders.Physical@8.0.0"
+        },
+        {
+            "name": "org.jetbrains.kotlin/kotlin-stdlib",
+            "version": "1.8.21",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.21?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://kotlinlang.org/"
+                }
+            ]
+        },
+        {
+            "name": "commons-io/commons-io",
+            "version": "2.15.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/commons-io/commons-io@2.15.1?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://commons.apache.org/proper/commons-io/"
+                }
+            ]
+        },
+        {
+            "name": "Asp.Versioning.Http",
+            "version": "6.4.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Asp.Versioning.Http@6.4.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/dotnet/aspnet-api-versioning/wiki"
+                }
+            ]
+        },
+        {
+            "name": "System.Text.Json",
+            "version": "8.0.5",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Zlib"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MICROSOFT SOFTWARE-LICENSE-TERMS-.NET-LIBRARY"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-4-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "bzip2-1.0.8"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "W3C-19980720"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "APSL-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Unicode-TOU"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0+-with autoconf exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC-PDDC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC0-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "HP-1989"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Third Party Notice File"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0 WITH LLVM-exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "University of Illinois/NCSA Open Source License."
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/System.Text.Json@8.0.5"
+        },
+        {
+            "name": "Castle.Core",
+            "version": "5.1.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Castle.Core@5.1.1",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "http://www.castleproject.org/"
+                }
+            ]
+        },
+        {
+            "name": "com.google.guava/failureaccess",
+            "version": "1.0.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.google.guava/failureaccess@1.0.2?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/google/guava/failureaccess"
+                }
+            ]
+        },
+        {
+            "name": "com.squareup.okio/okio-jvm",
+            "version": "3.6.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.squareup.okio/okio-jvm@3.6.0?type=jar"
+        },
+        {
+            "name": "org.apache.avro/avro",
+            "version": "1.12.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.avro/avro@1.12.0?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://avro.apache.org"
+                }
+            ]
+        },
+        {
+            "name": "Swashbuckle.AspNetCore.Swagger",
+            "version": "6.5.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Swashbuckle.AspNetCore.Swagger@6.5.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore"
+                }
+            ]
+        },
+        {
+            "name": "Apache.Avro",
+            "version": "1.11.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Apache.Avro@1.11.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://avro.apache.org/"
+                }
+            ]
+        },
+        {
+            "name": "com.github.luben/zstd-jni",
+            "version": "1.5.6-4",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-with-classpath-exception-variant"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.github.luben/zstd-jni@1.5.6-4?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/luben/zstd-jni"
+                }
+            ]
+        },
+        {
+            "name": "io.confluent/logredactor",
+            "version": "1.0.12",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/io.confluent/logredactor@1.0.12?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/confluentinc/logredactor"
+                }
+            ]
+        },
+        {
+            "name": "Elasticsearch.Net",
+            "version": "7.17.5",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Elasticsearch.Net@7.17.5",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/elastic/elasticsearch-net"
+                }
+            ]
+        },
+        {
+            "name": "io.confluent/common-utils",
+            "version": "7.7.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/io.confluent/common-utils@7.7.1?type=jar"
+        },
+        {
+            "name": "org.jetbrains.kotlin/kotlin-stdlib-common",
+            "version": "1.9.10",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.9.10?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://kotlinlang.org/"
+                }
+            ]
+        },
+        {
+            "name": "co.elastic.clients/elasticsearch-java",
+            "version": "8.16.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/co.elastic.clients/elasticsearch-java@8.16.0?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/elastic/elasticsearch-java/"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.jackson.dataformat/jackson-dataformat-csv",
+            "version": "2.16.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-csv@2.16.0?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/FasterXML/jackson-dataformats-text"
+                }
+            ]
+        },
+        {
+            "name": "Confluent.Kafka",
+            "version": "2.3.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Confluent.Kafka@2.3.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/confluentinc/confluent-kafka-dotnet/"
+                }
+            ]
+        },
+        {
+            "name": "Swashbuckle.AspNetCore.SwaggerUI",
+            "version": "6.5.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Swashbuckle.AspNetCore.SwaggerUI@6.5.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore"
+                }
+            ]
+        },
+        {
+            "name": "com.squareup.okio/okio",
+            "version": "3.6.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.squareup.okio/okio@3.6.0?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/square/okio/"
+                }
+            ]
+        },
+        {
+            "name": "Asp.Versioning.Mvc",
+            "version": "6.4.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Asp.Versioning.Mvc@6.4.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/dotnet/aspnet-api-versioning/wiki"
+                }
+            ]
+        },
+        {
+            "name": "org.eclipse.parsson/parsson",
+            "version": "1.0.5",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "GPL-2.0-with-classpath-exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-with-classpath-exception-variant"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "EPL-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.eclipse.parsson/parsson@1.0.5?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/eclipse-ee4j/parsson/parsson"
+                }
+            ]
+        },
+        {
+            "name": "com.eclipsesource.minimal-json/minimal-json",
+            "version": "0.9.5",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.eclipsesource.minimal-json/minimal-json@0.9.5?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/ralfstx/minimal-json"
+                }
+            ]
+        },
+        {
+            "name": "org.jetbrains.kotlin/kotlin-stdlib-jdk7",
+            "version": "1.8.21",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSL-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Zlib"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "curl"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "EDL-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "JSON"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Unicode-TOU"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "EPL-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.1-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC0-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-with-classpath-exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "NPL-1.1"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Third Party Notice File"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "snprintf"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "blessing"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.8.21?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://kotlinlang.org/"
+                }
+            ]
+        },
+        {
+            "name": "io.confluent/kafka-streams-avro-serde",
+            "version": "7.7.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/io.confluent/kafka-streams-avro-serde@7.7.1?type=jar"
+        },
+        {
+            "name": "Asp.Versioning.Abstractions",
+            "version": "6.2.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Asp.Versioning.Abstractions@6.2.1",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/dotnet/aspnet-api-versioning/wiki"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.logging.log4j/log4j-core",
+            "version": "2.24.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.2?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://logging.apache.org/log4j/2.x/log4j-core/"
+                }
+            ]
+        },
+        {
+            "name": "NLog.Web.AspNetCore",
+            "version": "5.3.5",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Restricted-rights"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/NLog.Web.AspNetCore@5.3.5",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/NLog/NLog.Web"
+                }
+            ]
+        },
+        {
+            "name": "xunit.extensibility.core",
+            "version": "2.6.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/xunit.extensibility.core@2.6.2",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/xunit/xunit"
+                }
+            ]
+        },
+        {
+            "name": "NLog",
+            "version": "5.2.5",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/NLog@5.2.5",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://nlog-project.org/"
+                }
+            ]
+        },
+        {
+            "name": "org.rocksdb/rocksdbjni",
+            "version": "7.9.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.rocksdb/rocksdbjni@7.9.2?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://rocksdb.org"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.kafka/kafka-clients",
+            "version": "3.9.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.kafka/kafka-clients@3.9.0?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://kafka.apache.org"
+                }
+            ]
+        },
+        {
+            "name": "Confluent.SchemaRegistry",
+            "version": "2.3.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Confluent.SchemaRegistry@2.3.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/confluentinc/confluent-kafka-dotnet/"
+                }
+            ]
+        },
+        {
+            "name": "io.github.resilience4j/resilience4j-retry",
+            "version": "2.2.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/io.github.resilience4j/resilience4j-retry@2.2.0?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://resilience4j.readme.io"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.httpcomponents/httpcore-nio",
+            "version": "4.4.13",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore-nio@4.4.13?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "http://hc.apache.org/httpcomponents-core-ga"
+                }
+            ]
+        },
+        {
+            "name": "io.confluent/kafka-avro-serializer",
+            "version": "7.7.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/io.confluent/kafka-avro-serializer@7.7.1?type=jar"
+        },
+        {
+            "name": "io.confluent/logredactor-metrics",
+            "version": "1.0.12",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/io.confluent/logredactor-metrics@1.0.12?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/confluentinc/logredactor"
+                }
+            ]
+        },
+        {
+            "name": "com.google.j2objc/j2objc-annotations",
+            "version": "2.8",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.google.j2objc/j2objc-annotations@2.8?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/google/j2objc/"
+                }
+            ]
+        },
+        {
+            "name": "io.opentelemetry/opentelemetry-context",
+            "version": "1.29.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/io.opentelemetry/opentelemetry-context@1.29.0?type=jar"
+        },
+        {
+            "name": "org.apache.logging.log4j/log4j-api",
+            "version": "2.24.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.24.2?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://logging.apache.org/log4j/2.x/log4j-api/"
+                }
+            ]
+        },
+        {
+            "name": "com.google.guava/guava",
+            "version": "32.0.1-jre",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.google.guava/guava@32.0.1-jre?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/google/guava"
+                }
+            ]
+        },
+        {
+            "name": "org.slf4j/slf4j-api",
+            "version": "1.7.36",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "http://www.slf4j.org"
+                }
+            ]
+        },
+        {
+            "name": "NLog",
+            "version": "5.2.7",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/NLog@5.2.7",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://nlog-project.org/"
+                }
+            ]
+        },
+        {
+            "name": "Moq",
+            "version": "4.20.70",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Moq@4.20.70",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/moq/moq"
+                }
+            ]
+        },
+        {
+            "name": "commons-codec/commons-codec",
+            "version": "1.15",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "http://commons.apache.org/proper/commons-codec/"
+                }
+            ]
+        },
+        {
+            "name": "System.Diagnostics.EventLog",
+            "version": "7.0.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Zlib"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MICROSOFT SOFTWARE-LICENSE-TERMS-.NET-LIBRARY"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-4-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "W3C"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC-BY-4.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "NCSA"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "bzip2-1.0.8"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "APSL-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Unicode-TOU"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC-BY-SA-3.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "IETF"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC-PDDC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "ISC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC0-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "HP-1989"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Third Party Notice File"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0 WITH LLVM-exception"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/System.Diagnostics.EventLog@7.0.0"
+        },
+        {
+            "name": "jakarta.json/jakarta.json-api",
+            "version": "2.0.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Dual-License"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-with-classpath-exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "EPL-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/jakarta.json/jakarta.json-api@2.0.1?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/eclipse-ee4j/jsonp"
+                }
+            ]
+        },
+        {
+            "name": "NLog.Extensions.Logging",
+            "version": "5.3.5",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/NLog.Extensions.Logging@5.3.5",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/NLog/NLog.Extensions.Logging"
+                }
+            ]
+        },
+        {
+            "name": "Microsoft.Extensions.Options",
+            "version": "8.0.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Microsoft.Extensions.Options@8.0.2"
+        },
+        {
+            "name": "com.github.ben-manes.caffeine/caffeine",
+            "version": "3.1.8",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC0-1.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.github.ben-manes.caffeine/caffeine@3.1.8?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/ben-manes/caffeine"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.commons/commons-lang3",
+            "version": "3.17.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.commons/commons-lang3@3.17.0?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://commons.apache.org/proper/commons-lang/"
+                }
+            ]
+        },
+        {
+            "name": "Microsoft.Extensions.FileProviders.Abstractions",
+            "version": "8.0.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@8.0.0"
+        },
+        {
+            "name": "org.jetbrains/annotations",
+            "version": "13.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "http://www.jetbrains.org"
+                }
+            ]
+        },
+        {
+            "name": "io.confluent/kafka-schema-serializer",
+            "version": "7.7.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/io.confluent/kafka-schema-serializer@7.7.1?type=jar"
+        },
+        {
+            "name": "Confluent.SchemaRegistry.Serdes.Avro",
+            "version": "2.3.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Confluent.SchemaRegistry.Serdes.Avro@2.3.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/confluentinc/confluent-kafka-dotnet/"
+                }
+            ]
+        },
+        {
+            "name": "io.confluent/kafka-schema-registry-client",
+            "version": "7.7.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "CC-PDDC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/io.confluent/kafka-schema-registry-client@7.7.1?type=jar"
+        },
+        {
+            "name": "io.swagger.core.v3/swagger-annotations-jakarta",
+            "version": "2.1.10",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/io.swagger.core.v3/swagger-annotations@2.1.10?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/swagger-api/swagger-core/modules/swagger-annotations-jakarta"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.logging.log4j/log4j-slf4j-impl",
+            "version": "2.24.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.24.2?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://logging.apache.org/log4j/2.x/log4j-slf4j-impl/"
+                }
+            ]
+        },
+        {
+            "name": "com.google.code.findbugs/jsr305",
+            "version": "3.0.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "http://findbugs.sourceforge.net/"
+                }
+            ]
+        },
+        {
+            "name": "Newtonsoft.Json",
+            "version": "13.0.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Newtonsoft.Json@13.0.3",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://www.newtonsoft.com/json"
+                }
+            ]
+        },
+        {
+            "name": "NEST",
+            "version": "7.17.5",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/NEST@7.17.5",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/elastic/elasticsearch-net"
+                }
+            ]
+        },
+        {
+            "name": "io.opentelemetry/opentelemetry-api",
+            "version": "1.29.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/io.opentelemetry/opentelemetry-api@1.29.0?type=jar"
+        },
+        {
+            "name": "com.alibaba.fastjson2/fastjson2",
+            "version": "2.0.53",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "LGPL-2.1-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-with-classpath-exception"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.alibaba.fastjson2/fastjson2@2.0.53?type=jar"
+        },
+        {
+            "name": "xunit.extensibility.execution",
+            "version": "2.6.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/xunit.extensibility.execution@2.6.2",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/xunit/xunit"
+                }
+            ]
+        },
+        {
+            "name": "Asp.Versioning.Mvc.ApiExplorer",
+            "version": "6.4.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Asp.Versioning.Mvc.ApiExplorer@6.4.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/dotnet/aspnet-api-versioning/wiki"
+                }
+            ]
+        },
+        {
+            "name": "NuGet.Frameworks",
+            "version": "6.5.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/NuGet.Frameworks@6.5.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://aka.ms/nugetprj"
+                }
+            ]
+        },
+        {
+            "name": "xunit.abstractions",
+            "version": "2.0.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/xunit.abstractions@2.0.3",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/xunit/xunit"
+                }
+            ]
+        },
+        {
+            "name": "commons-logging/commons-logging",
+            "version": "1.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "http://commons.apache.org/proper/commons-logging/"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.httpcomponents/httpclient",
+            "version": "4.5.14",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "http://hc.apache.org/httpcomponents-client"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.kafka/kafka-streams",
+            "version": "3.9.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.kafka/kafka-streams@3.9.0?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://kafka.apache.org"
+                }
+            ]
+        },
+        {
+            "name": "org.yaml/snakeyaml",
+            "version": "2.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "EPL-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.1-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Multiple-License"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.yaml/snakeyaml@2.0?type=jar",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://bitbucket.org/snakeyaml/snakeyaml"
+                }
+            ]
+        },
+        {
+            "name": "Swashbuckle.AspNetCore.SwaggerGen",
+            "version": "6.5.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Swashbuckle.AspNetCore.SwaggerGen@6.5.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore"
+                }
+            ]
+        }
+    ]
+}

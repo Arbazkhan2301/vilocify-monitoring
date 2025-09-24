@@ -1,0 +1,30 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2025-09-23T10:01:05Z",
+        "tools": [
+            {
+                "vendor": "Eclipse Foundation",
+                "name": "SW360",
+                "version": "18.1.0-m2"
+            }
+        ],
+        "component": {
+            "author": "khan.arbaz@siemens.com",
+            "group": "IN EA RC-ZA SP PE EN1",
+            "name": "Botswana PCSU CARP System",
+            "version": "1.0",
+            "description": "Siemens PCS7 upgrade project",
+            "type": "application"
+        }
+    },
+    "components": [
+        {
+            "name": "Communication Processor 443-1",
+            "version": "3",
+            "description": ""
+        }
+    ]
+}

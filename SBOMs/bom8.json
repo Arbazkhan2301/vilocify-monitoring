@@ -1,0 +1,1441 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2025-09-23T09:49:59Z",
+        "tools": [
+            {
+                "vendor": "Eclipse Foundation",
+                "name": "SW360",
+                "version": "18.1.0-m2"
+            }
+        ],
+        "component": {
+            "author": "khan.arbaz@siemens.com",
+            "group": "IN AM RC-CL DB",
+            "name": "AHA / model-Motor-temperature / Back",
+            "version": "1.0",
+            "description": "The solution considers an intuitive system for the Asset Health Analytics for Gearless Mill Drives with connection to the Cloud as well as on premise solution. Module: model-Motor-temperature / Back",
+            "type": "application"
+        }
+    },
+    "components": [
+        {
+            "name": "attrs",
+            "version": "23.1.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/attrs@23.1.0"
+        },
+        {
+            "name": "rsa",
+            "version": "4.9.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/rsa@4.9.1"
+        },
+        {
+            "name": "click",
+            "version": "8.1.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/click@8.1.3",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://palletsprojects.com/p/click/"
+                }
+            ]
+        },
+        {
+            "name": "Flask",
+            "version": "2.2.4",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/flask@2.2.4",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://palletsprojects.com/p/flask"
+                }
+            ]
+        },
+        {
+            "name": "pandas",
+            "version": "2.0.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/pandas@2.0.2"
+        },
+        {
+            "name": "psycopg2",
+            "version": "2.9.6",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Zlib"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-3.0+ with OpenSSL-linking-exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-3.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Python-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-3.0-or-later"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/psycopg2@2.9.6",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://psycopg.org/"
+                }
+            ]
+        },
+        {
+            "name": "certifi",
+            "version": "2023.5.7",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MPL-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/certifi@2023.5.7",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/certifi/python-certifi"
+                }
+            ]
+        },
+        {
+            "name": "urllib3",
+            "version": "1.26.16",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-Domain"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/urllib3@1.26.16",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://urllib3.readthedocs.io/"
+                }
+            ]
+        },
+        {
+            "name": "python-dotenv",
+            "version": "1.0.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/python-dotenv@1.0.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/theskumar/python-dotenv"
+                }
+            ]
+        },
+        {
+            "name": "toml",
+            "version": "0.10.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/toml@0.10.2"
+        },
+        {
+            "name": "jsonschema",
+            "version": "4.17.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/jsonschema@4.17.3"
+        },
+        {
+            "name": "MarkupSafe",
+            "version": "2.1.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/markupsafe@2.1.3",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://palletsprojects.com/p/markupsafe/"
+                }
+            ]
+        },
+        {
+            "name": "idna",
+            "version": "3.4",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/idna@3.4"
+        },
+        {
+            "name": "billiard",
+            "version": "4.1.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/billiard@4.1.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/celery/billiard"
+                }
+            ]
+        },
+        {
+            "name": "pyrsistent",
+            "version": "0.19.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/pyrsistent@0.19.3",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/tobgu/pyrsistent/"
+                }
+            ]
+        },
+        {
+            "name": "pyasn1-modules",
+            "version": "0.4.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/pyasn1-modules@0.4.2"
+        },
+        {
+            "name": "requests",
+            "version": "2.31.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/requests@2.31.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://requests.readthedocs.io"
+                }
+            ]
+        },
+        {
+            "name": "cyclonedx-python-lib",
+            "version": "3.1.5",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/cyclonedx-python-lib@3.1.5"
+        },
+        {
+            "name": "pip-requirements-parser",
+            "version": "32.0.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "ISC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/pip-requirements-parser@32.0.1"
+        },
+        {
+            "name": "tzlocal",
+            "version": "5.0.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/tzlocal@5.0.1"
+        },
+        {
+            "name": "setuptools",
+            "version": "65.5.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Python-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/setuptools@65.5.1"
+        },
+        {
+            "name": "Jinja2",
+            "version": "3.1.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/jinja2@3.1.2",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://palletsprojects.com/p/jinja/"
+                }
+            ]
+        },
+        {
+            "name": "chardet",
+            "version": "5.1.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "CC-BY-SA-2.5"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.1"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.1-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.1-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/chardet@5.1.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/chardet/chardet"
+                }
+            ]
+        },
+        {
+            "name": "matplotlib",
+            "version": "3.7.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "SLA"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Python-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MatplotlibLA"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/matplotlib@3.7.1",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://matplotlib.org"
+                }
+            ]
+        },
+        {
+            "name": "flask-restplus",
+            "version": "0.13.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/flask-restplus@0.13.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/noirbizarre/flask-restplus"
+                }
+            ]
+        },
+        {
+            "name": "pillow",
+            "version": "11.2.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Bitstream-Vera"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Permission Notice"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0-with-font-exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "ICC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "otherwhite"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-CMU"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Arev Font License"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "0BSD"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.1-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC0-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "TCL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0+ with font-exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "OFL-1.1"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/pillow@11.2.1"
+        },
+        {
+            "name": "python-dateutil",
+            "version": "2.8.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Dual-License"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/python-dateutil@2.8.2",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/dateutil/dateutil"
+                }
+            ]
+        },
+        {
+            "name": "itsdangerous",
+            "version": "2.0.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/itsdangerous@2.0.1",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://palletsprojects.com/p/itsdangerous/"
+                }
+            ]
+        },
+        {
+            "name": "numpy",
+            "version": "1.23.5",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSL-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Zlib"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-Style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC-BY-4.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-License"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "NCSA"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-Domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC0-1.0"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/numpy@1.23.5",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://www.numpy.org"
+                }
+            ]
+        },
+        {
+            "name": "Flask-Cors",
+            "version": "3.0.10",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/flask-cors@3.0.10",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/corydolphin/flask-cors"
+                }
+            ]
+        },
+        {
+            "name": "oauth2client",
+            "version": "4.1.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/oauth2client@4.1.3"
+        },
+        {
+            "name": "pytz",
+            "version": "2023.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Dual-License"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/pytz@2023.3",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "http://pythonhosted.org/pytz"
+                }
+            ]
+        },
+        {
+            "name": "aniso8601",
+            "version": "9.0.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/aniso8601@9.0.1",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://bitbucket.org/nielsenb/aniso8601"
+                }
+            ]
+        },
+        {
+            "name": "wheel",
+            "version": "0.45.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/wheel@0.45.1"
+        },
+        {
+            "name": "tzdata",
+            "version": "2025.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-Domain"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/tzdata@2025.2"
+        },
+        {
+            "name": "Werkzeug",
+            "version": "2.3.5",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Dual-License"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC-BY-2.5"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/werkzeug@2.3.5"
+        },
+        {
+            "name": "APScheduler",
+            "version": "3.10.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/apscheduler@3.10.1",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/agronholm/apscheduler"
+                }
+            ]
+        },
+        {
+            "name": "Cython",
+            "version": "0.29.35",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.0-or-later"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/cython@0.29.35",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "http://cython.org/"
+                }
+            ]
+        },
+        {
+            "name": "fonttools",
+            "version": "4.58.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Unicode-TOU"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "OFL-1.1"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/fonttools@4.58.0"
+        },
+        {
+            "name": "contourpy",
+            "version": "1.3.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/contourpy@1.3.2"
+        },
+        {
+            "name": "kiwisolver",
+            "version": "1.4.8",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Permission Notice"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/kiwisolver@1.4.8"
+        },
+        {
+            "name": "pyasn1",
+            "version": "0.6.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/pyasn1@0.6.1"
+        },
+        {
+            "name": "packageurl-python",
+            "version": "0.16.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/packageurl-python@0.16.0"
+        },
+        {
+            "name": "pip",
+            "version": "25.1.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "0BSD"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MPL-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "ISC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Python-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/pip@25.1.1"
+        },
+        {
+            "name": "scipy",
+            "version": "1.10.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSL-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LPPL-1.3+"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Zlib"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "EULA"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "NCSA"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-CMU-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Qhull"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC0-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0-or-later-with-GCC-Exception"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/scipy@1.10.1",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://scipy.org/"
+                }
+            ]
+        },
+        {
+            "name": "cycler",
+            "version": "0.12.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/cycler@0.12.1"
+        },
+        {
+            "name": "charset-normalizer",
+            "version": "3.4.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/charset-normalizer@3.4.2"
+        },
+        {
+            "name": "packaging",
+            "version": "25.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Dual-License"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/packaging@25.0"
+        },
+        {
+            "name": "flask-oidc",
+            "version": "1.4.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/flask-oidc@1.4.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/puiterwijk/flask-oidc"
+                }
+            ]
+        },
+        {
+            "name": "pyparsing",
+            "version": "3.2.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Permission Notice"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/pyparsing@3.2.3"
+        },
+        {
+            "name": "sortedcontainers",
+            "version": "2.4.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/sortedcontainers@2.4.0"
+        },
+        {
+            "name": "cyclonedx-bom",
+            "version": "3.11.7",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/cyclonedx-bom@3.11.7"
+        },
+        {
+            "name": "six",
+            "version": "1.16.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/six@1.16.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/benjaminp/six"
+                }
+            ]
+        },
+        {
+            "name": "cached-property",
+            "version": "1.5.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/cached-property@1.5.2",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/pydanny/cached-property"
+                }
+            ]
+        },
+        {
+            "name": "httplib2",
+            "version": "0.22.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                }
+            ],
+            "purl": "pkg:pypi/httplib2@0.22.0"
+        }
+    ]
+}

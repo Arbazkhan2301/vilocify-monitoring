@@ -1,0 +1,343 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2025-09-23T09:55:58Z",
+        "tools": [
+            {
+                "vendor": "Eclipse Foundation",
+                "name": "SW360",
+                "version": "18.1.0-m2"
+            }
+        ],
+        "component": {
+            "author": "khan.arbaz@siemens.com",
+            "group": "IN MVD R&D 1 DAS",
+            "name": "argo-workflow-token-util",
+            "version": "1.0.6",
+            "description": "This project is required for Argo workflow token util using for token services, to get the licenses of the packages we're using for Token Service",
+            "type": "application"
+        }
+    },
+    "components": [
+        {
+            "name": "AzureAD.Net",
+            "version": "7.1.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:custom/AzureAD.Net@7.1.2"
+        },
+        {
+            "name": "Swashbuckle",
+            "version": "7.2.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:custom/Swashbuckle@7.2.0"
+        },
+        {
+            "name": "NLog.Extensions.Logging",
+            "version": "5.3.12",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/NLog.Extensions.Logging@5.3.12",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/NLog/NLog.Extensions.Logging"
+                }
+            ]
+        },
+        {
+            "name": ".NET Runtime",
+            "version": "8.0.13",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "CC-BY-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Zlib"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MICROSOFT SOFTWARE-LICENSE-TERMS-.NET-LIBRARY"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-Wu"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-4-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "bzip2-1.0.8"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "W3C-19980720"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "APSL-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Unicode-TOU"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0+-with autoconf exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC-PDDC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "ISC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC0-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "HP-1989"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Third Party Notice File"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0 WITH LLVM-exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "University of Illinois/NCSA Open Source License."
+                    }
+                }
+            ],
+            "purl": "pkg:custom/.NET Runtime@8.0.13"
+        },
+        {
+            "name": "Asp Api Versioning",
+            "version": "8.1.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:custom/Asp Api Versioning@8.1.0"
+        },
+        {
+            "name": "ASP.NET Core",
+            "version": "8.0.13",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Zlib"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "EPL-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Third Party Notice File"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MICROSOFt-SOFTWARE-LICENSE-TERMS-ASP.NET-CORE-MODULE"
+                    }
+                }
+            ],
+            "purl": "pkg:custom/ASP.NET Core@8.0.13"
+        },
+        {
+            "name": "NLog",
+            "version": "5.3.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/NLog@5.3.3",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://nlog-project.org/"
+                }
+            ]
+        },
+        {
+            "name": "Swashbukle.AspNetCore",
+            "version": "2.0.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Swashbukle.AspNetCore@2.0.0"
+        },
+        {
+            "name": "Microsoft.OpenApi",
+            "version": "1.2.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Microsoft.OpenApi@1.2.3",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/Microsoft/OpenAPI.NET"
+                }
+            ]
+        },
+        {
+            "name": "Swashbuckle.AspNetCore",
+            "version": "6.2.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Swashbuckle.AspNetCore@6.2.3"
+        }
+    ]
+}

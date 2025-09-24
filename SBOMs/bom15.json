@@ -1,0 +1,256 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2025-09-23T09:57:17Z",
+        "tools": [
+            {
+                "vendor": "Eclipse Foundation",
+                "name": "SW360",
+                "version": "18.1.0-m2"
+            }
+        ],
+        "component": {
+            "author": "khan.arbaz@siemens.com",
+            "group": "IN MVD ADI 7 DAI",
+            "name": "aspector",
+            "version": "PI38",
+            "description": "",
+            "type": "application"
+        }
+    },
+    "components": [
+        {
+            "name": "Newtonsoft.Json",
+            "version": "13.0.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Newtonsoft.Json@13.0.1",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://www.newtonsoft.com/json"
+                }
+            ]
+        },
+        {
+            "name": "NLog",
+            "version": "4.7.5",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/NLog@4.7.5",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://nlog-project.org/"
+                }
+            ]
+        },
+        {
+            "name": "YamlDotNet",
+            "version": "8.1.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/YamlDotNet@8.1.2"
+        },
+        {
+            "name": "AutoMapper",
+            "version": "9.0.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/AutoMapper@9.0.0",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://automapper.org/"
+                }
+            ]
+        },
+        {
+            "name": "CommonServiceLocator",
+            "version": "2.0.5",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MS-PL"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/CommonServiceLocator@2.0.5"
+        },
+        {
+            "name": "morelinq",
+            "version": "3.4.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/morelinq@3.4.2"
+        },
+        {
+            "name": "Autofac",
+            "version": "5.0.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Autofac@5.0.0"
+        },
+        {
+            "name": "Parquet.Net",
+            "version": "3.8.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "W3C-document-license"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "SUN PROPRIETARY/CONFIDENTIAL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.1-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "W3C"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Sun-IP"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Sun.RESTRICTED"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CDDL-1.1"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC-PDDC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-with-classpath-exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC-BY-2.5"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Parquet.Net@3.8.1",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/aloneguid/parquet-dotnet"
+                }
+            ]
+        },
+        {
+            "name": "Swashbuckle.Core",
+            "version": "5.6.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Swashbuckle.Core@5.6.0"
+        }
+    ]
+}

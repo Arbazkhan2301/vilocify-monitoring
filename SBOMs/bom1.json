@@ -1,0 +1,90 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2025-09-23T09:39:42Z",
+        "tools": [
+            {
+                "vendor": "Eclipse Foundation",
+                "name": "SW360",
+                "version": "18.1.0-m2"
+            }
+        ],
+        "component": {
+            "author": "khan.arbaz@siemens.com",
+            "group": "IN EA RC-ZA SO PE EN1",
+            "name": "Afrimat LIC PC ES Upgrade",
+            "version": "1.0",
+            "description": "Upgrade of PCS7 control system",
+            "type": "application"
+        }
+    },
+    "components": [
+        {
+            "name": "TP1500 Comfort HMI Panel",
+            "version": "17",
+            "description": ""
+        },
+        {
+            "name": "ET200SP",
+            "version": "4.2",
+            "description": ""
+        },
+        {
+            "name": "Communication Processor 443-5",
+            "version": "7.1",
+            "description": ""
+        },
+        {
+            "name": "SCALANCE XC206-2",
+            "version": "4.2",
+            "description": ""
+        },
+        {
+            "name": "SimocodeproVPN",
+            "version": "2.1",
+            "description": ""
+        },
+        {
+            "name": "SIMATIC STEP 7 CFC",
+            "version": "17",
+            "description": ""
+        },
+        {
+            "name": "Communication Processor 443-1",
+            "version": "3",
+            "description": ""
+        },
+        {
+            "name": "SCALANCE W734-1",
+            "version": "6.5",
+            "description": ""
+        },
+        {
+            "name": "TP900 Comfort HMI Panel",
+            "version": "17",
+            "description": ""
+        },
+        {
+            "name": "SIMATIC PCS 7 CPU 410",
+            "version": "8.2",
+            "description": ""
+        },
+        {
+            "name": "SCALANCE XR324-12M",
+            "version": "4.1.4",
+            "description": ""
+        },
+        {
+            "name": "CP 1623",
+            "version": "14.0.15.5125",
+            "description": ""
+        },
+        {
+            "name": "PAC3200",
+            "version": "2.4.6",
+            "description": ""
+        }
+    ]
+}

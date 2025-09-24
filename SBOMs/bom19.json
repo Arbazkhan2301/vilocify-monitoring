@@ -1,0 +1,553 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2025-09-23T10:02:11Z",
+        "tools": [
+            {
+                "vendor": "Eclipse Foundation",
+                "name": "SW360",
+                "version": "18.1.0-m2"
+            }
+        ],
+        "component": {
+            "author": "khan.arbaz@siemens.com",
+            "group": "IN CYS CGT",
+            "name": "CATS-flexible-Installer",
+            "version": "12.0",
+            "description": "CATS-flexible is a suite of tools developed to implement an environment for designing and controlling industrial test processes for a variety of machines (such as engines, gears, vehicles, e-chargers) or media (such as oil, e-fluids) and providing the measured data through various interfaces.",
+            "type": "application"
+        }
+    },
+    "components": [
+        {
+            "name": "RTXUpdate4",
+            "version": "3.7 Update 4",
+            "description": "",
+            "purl": "pkg:generic/RTXUpdate4@3.7"
+        },
+        {
+            "name": "lua",
+            "version": "5.4.7",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ]
+        },
+        {
+            "name": ".NET Framework",
+            "version": "4.7.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MS-PL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Zlib"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Restricted-rights"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "IETF"
+                    }
+                }
+            ],
+            "purl": "pkg:custom/.NET Framework@4.7.2"
+        },
+        {
+            "name": "luajit",
+            "version": "2.0.4",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC-PDDC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:generic/luajit@2.0.4"
+        },
+        {
+            "name": "mdf4lib",
+            "version": "2.022",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Unlicense"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:generic/mdf4lib@2.022"
+        },
+        {
+            "name": "msodbcsql_x86",
+            "version": "2014",
+            "description": "",
+            "purl": "pkg:generic/msodbcsql_x68@2014"
+        },
+        {
+            "name": "openldap",
+            "version": "2.6.9",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Furuseth"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-or-later WITH Libtool Exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "OLDAP"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0+-with-autoconf-exception."
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Zlib-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT Style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.1-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "ISC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "PADL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "OLDAP-2.8"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-4-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0+-with-Libtool-Exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Unicode-TOU"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "IETF"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "OLDAP-2.0.1"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "FSFULLR"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "FSFUL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0+-with autoconf exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Beerware"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "X11"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "curl",
+            "version": "8.13.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "curl"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-4-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "ISC"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Wibukey",
+            "version": "6.70",
+            "description": "",
+            "purl": "pkg:generic/Wibukey@6.70"
+        },
+        {
+            "name": "accessdatabaseengine_x64",
+            "version": "2016",
+            "description": "",
+            "purl": "pkg:generic/accessdatabaseengine_x64@2016"
+        },
+        {
+            "name": "accessdatabaseengine_x86",
+            "version": "2016",
+            "description": "",
+            "purl": "pkg:generic/accessdatabaseengine_x68@2016"
+        },
+        {
+            "name": "Codemeter",
+            "version": "8.20",
+            "description": "",
+            "purl": "pkg:generic/Codemeter@8.20"
+        },
+        {
+            "name": "subversion",
+            "version": "1.14.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Unlicense"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "FSFAP"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-or-later WITH Libtool Exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0+-with-Libtool-Exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0+-with-autoconf-exception."
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Unicode-TOU"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "FSFULLR"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "FSFUL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "X11"
+                    }
+                }
+            ],
+            "purl": "pkg:generic/subversion@1.14.1"
+        },
+        {
+            "name": "msodbcsql_amd64",
+            "version": "2014",
+            "description": "",
+            "purl": "pkg:generic/msodbcsql_amd64@2014"
+        },
+        {
+            "name": "graphviz",
+            "version": "12.2.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "LGPL-2.1-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "FSFAP"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-or-later WITH Libtool Exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0+-with-Libtool-Exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0+-with-autoconf-exception."
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CPL-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "FSFULLR"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "FSFUL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.0+ with Libtool exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "EPL-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0+-with autoconf exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0+-with-bison-exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "X11"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "X11-style"
+                    }
+                }
+            ],
+            "purl": "pkg:gitlab/graphviz@12.2.1"
+        },
+        {
+            "name": "uroesch/ldapadmin",
+            "version": "1.8.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "GPL-3.0-only"
+                    }
+                }
+            ],
+            "purl": "pkg:github/uroesch/ldapadmin@1.8.3"
+        },
+        {
+            "name": "RTX",
+            "version": "3.7",
+            "description": "",
+            "purl": "pkg:generic/RTX@3.7"
+        },
+        {
+            "name": "RTX_Sentinel",
+            "version": "8.13",
+            "description": "",
+            "purl": "pkg:generic/RTX_Sentinel@8.13"
+        }
+    ]
+}

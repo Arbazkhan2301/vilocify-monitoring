@@ -1,0 +1,936 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2025-09-23T10:03:02Z",
+        "tools": [
+            {
+                "vendor": "Eclipse Foundation",
+                "name": "SW360",
+                "version": "18.1.0-m2"
+            }
+        ],
+        "component": {
+            "author": "khan.arbaz@siemens.com",
+            "group": "IN CYS CGT",
+            "name": "CATS-flexible-Workbench",
+            "version": "11.3",
+            "description": "CATS-flexible is a suite of tools developed to implement an environment for designing and controlling industrial test processes for a variety of machines (such as engines, gears, vehicles, e-chargers) or media (such as oil, e-fluids) and providing the measured data through various interfaces.",
+            "type": "application"
+        }
+    },
+    "components": [
+        {
+            "name": "aspnet/aspnetwebstack",
+            "version": "3.2.7",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "ISO 8879"
+                    }
+                }
+            ],
+            "purl": "pkg:github/aspnet/aspnetwebstack@5.2.7"
+        },
+        {
+            "name": "xceeddatagridwpf",
+            "version": "7.0",
+            "description": "",
+            "purl": "pkg:gitlab/xceeddatagridwpf@7.0"
+        },
+        {
+            "name": "Swashbuckle.AspNetCore",
+            "version": "5.6.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Swashbuckle.AspNetCore@5.6.0"
+        },
+        {
+            "name": "DotNetProjects.Extended.Wpf.Toolkit",
+            "version": "5.0.115",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MS-PL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Zlib"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MS-RL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/DotNetProjects.Extended.Wpf.Toolkit@5.0.115"
+        },
+        {
+            "name": "CommandLineParser",
+            "version": "1.9.71.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "zlib-acknowledgement"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/CommandLineParser@1.9.71.2"
+        },
+        {
+            "name": "NSwag.MSBuild",
+            "version": "14.1.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/NSwag.MSBuild@14.1.0"
+        },
+        {
+            "name": "Ninject",
+            "version": "3.3.6",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MS-PL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Ninject@3.3.4"
+        },
+        {
+            "name": "Newtonsoft.Json.Bson",
+            "version": "1.0.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Newtonsoft.Json.Bson@1.0.2",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "http://www.newtonsoft.com/json"
+                }
+            ]
+        },
+        {
+            "name": "Microsoft.Xaml.Behaviors.Wpf",
+            "version": "1.1.122",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Microsoft.Xaml.Behaviors.Wpf@1.1.122"
+        },
+        {
+            "name": "Microsoft.OpenApi",
+            "version": "1.6.14",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Microsoft.OpenApi@1.6.14",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://github.com/Microsoft/OpenAPI.NET"
+                }
+            ]
+        },
+        {
+            "name": "scichart",
+            "version": "5.2.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSL-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Zlib"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GFDL-1.3-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.1-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0+-with-autoconf-exception."
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Restricted-rights"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.0-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-3.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.1-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "SGI-B-1.1"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Third Party Notice File"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MS-PL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0+-with-libtool-exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "FSFULLR"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "FSFUL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0+-with autoconf exception"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "X11"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Software-License-Agreement"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "FTL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-3.0-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Multiple-License"
+                    }
+                }
+            ],
+            "purl": "pkg:gitlab/scichart@5.2.0"
+        },
+        {
+            "name": "owin",
+            "version": "1.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:custom/owin@1.0"
+        },
+        {
+            "name": "SharpSvn",
+            "version": "1.14003.290",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MS-RL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "OpenSSL"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/SharpSvn@1.14003.290"
+        },
+        {
+            "name": "ComponentOne Enterprise",
+            "version": "202412.19.1",
+            "description": "",
+            "purl": "pkg:custom/ComponentOne_Enterprise@202412.19.1",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://developer.mescius.com/componentone"
+                }
+            ]
+        },
+        {
+            "name": "DocumentFormat.OpenXml",
+            "version": "2.20.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC0-1.0"
+                    }
+                }
+            ],
+            "purl": "pkg:custom/DocumentFormat.OpenXml@2.20.0"
+        },
+        {
+            "name": "dotnetprojects.wpftoolkit.input",
+            "version": "6.1.94",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MS-PL"
+                    }
+                }
+            ],
+            "purl": "pkg:github/DotNetProjects.WpfToolkit.Input@6.1.94"
+        },
+        {
+            "name": "Ninject.Web.Common",
+            "version": "3.3.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MS-PL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Ninject.Web.Common@3.3.0"
+        },
+        {
+            "name": "Ninject.Web.Common.SelfHost",
+            "version": "3.3.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MS-PL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Ninject.Web.Common.SelfHost@3.3.2"
+        },
+        {
+            "name": "icsharpcode/sharpdevelop",
+            "version": "4.3.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Zlib"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "zlib-acknowledgement"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.1-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "W3C"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Restricted-rights"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MS-EULA"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-3.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "LGPL-2.1-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "ISC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Ruby"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MS-PL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MS-RL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "OLDAP-2.8"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-4-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CC-BY-3.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "W3C-19980720"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "CPL-1.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-3.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "OpenSSL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Public-domain"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Sleepycat"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Beerware"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "RSA-MD"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:github/icsharpcode/SharpDevelop@4.3.1"
+        },
+        {
+            "name": "ninject/ninject.web.webapi",
+            "version": "3.3.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MS-PL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MICROSOFT SOFTWARE-LICENSE-TERMS-.NET-LIBRARY"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:github/ninject/Ninject.Web.WebApi@3.3.0"
+        },
+        {
+            "name": "xceedsoftware/extendedwpftoolkit",
+            "version": "4.6.1",
+            "description": "",
+            "purl": "pkg:github/xceedsoftware/extendedwpftoolkit@4.6.1"
+        },
+        {
+            "name": "vsimagelibrary",
+            "version": "2012",
+            "description": "",
+            "purl": "pkg:generic/vsimagelibrary@2012"
+        },
+        {
+            "name": "Newtonsoft.Json",
+            "version": "13.0.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Newtonsoft.Json@13.0.3",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://www.newtonsoft.com/json"
+                }
+            ]
+        },
+        {
+            "name": "SOLFS",
+            "version": "5.2.152",
+            "description": "",
+            "purl": "pkg:custom/SOLFS@5.2.152"
+        },
+        {
+            "name": "Castle.Core",
+            "version": "4.4.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Castle.Core@4.4.1",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "http://www.castleproject.org/"
+                }
+            ]
+        },
+        {
+            "name": "Ninject.Extensions.Factory",
+            "version": "3.3.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MS-PL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Ninject.Extensions.Factory@3.3.2"
+        },
+        {
+            "name": "System.Linq.Dynamic.Core",
+            "version": "1.3.7",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "WTFPL"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "OFL-1.1"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/System.Linq.Dynamic.Core@1.3.7",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://dynamic-linq.net/"
+                }
+            ]
+        },
+        {
+            "name": "aspnet/aspnetkatana",
+            "version": "4.2.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SharpZipLib",
+            "version": "1.4.2",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "GFDL-1.3-or-later"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "bzip2-1.0.5"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Dual-license"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/SharpZipLib@1.4.2"
+        },
+        {
+            "name": "Novell.Directory.Ldap.NETStandard",
+            "version": "3.6.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Novell.Directory.Ldap.NETStandard@3.6.0"
+        },
+        {
+            "name": "log4net",
+            "version": "2.0.14",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/log4net@2.0.14"
+        },
+        {
+            "name": "System.Reactive",
+            "version": "4.0.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/System.Reactive@4.0.0"
+        }
+    ]
+}

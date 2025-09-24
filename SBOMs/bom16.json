@@ -1,0 +1,86 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2025-09-23T09:58:27Z",
+        "tools": [
+            {
+                "vendor": "Eclipse Foundation",
+                "name": "SW360",
+                "version": "18.1.0-m2"
+            }
+        ],
+        "component": {
+            "author": "khan.arbaz@siemens.com",
+            "group": "IN MVD R&D 1 DAS",
+            "name": "Asset Data Collector",
+            "version": "1.0.1",
+            "description": "Extracting analysis data from EdgeConnect",
+            "type": "application"
+        }
+    },
+    "components": [
+        {
+            "name": "NLog",
+            "version": "6.0.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/NLog@6.0.3",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://nlog-project.org/"
+                }
+            ]
+        },
+        {
+            "name": "NATS.Client",
+            "version": "1.1.8",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/NATS.Client@1.1.8"
+        },
+        {
+            "name": "Newtonsoft.Json",
+            "version": "13.0.3",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:nuget/Newtonsoft.Json@13.0.3",
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://www.newtonsoft.com/json"
+                }
+            ]
+        }
+    ]
+}

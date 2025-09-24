@@ -1,0 +1,119 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2025-09-23T10:00:15Z",
+        "tools": [
+            {
+                "vendor": "Eclipse Foundation",
+                "name": "SW360",
+                "version": "18.1.0-m2"
+            }
+        ],
+        "component": {
+            "author": "khan.arbaz@siemens.com",
+            "group": "IN MVD ADI 7 DAI",
+            "name": "bootstrap-zanzibar",
+            "version": "PI38",
+            "description": "This is one component of our IAM 2.0 system",
+            "type": "application"
+        }
+    },
+    "components": [
+        {
+            "name": "opa",
+            "version": "0.62.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "CC-BY-SA-4.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT-style"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MPL-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "ISC"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0 WITH LLVM-exception"
+                    }
+                }
+            ],
+            "purl": "pkg:library/opa@0.62.1"
+        },
+        {
+            "name": "zed",
+            "version": "0.8.0",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:library/zed@0.8.0"
+        },
+        {
+            "name": "spicedb",
+            "version": "1.35.1",
+            "description": "",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "Apache-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:library/spicedb@1.35.1"
+        }
+    ]
+}

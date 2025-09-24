@@ -1,0 +1,46 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2025-09-23T09:53:29Z",
+        "tools": [
+            {
+                "vendor": "Eclipse Foundation",
+                "name": "SW360",
+                "version": "18.1.0-m2"
+            }
+        ],
+        "component": {
+            "author": "khan.arbaz@siemens.com",
+            "group": "IN CYS CGT",
+            "name": "Andritz bluepint",
+            "version": "1",
+            "description": "",
+            "type": "application"
+        }
+    },
+    "components": [
+        {
+            "name": "Scout",
+            "version": "V5.4 SP3",
+            "description": ""
+        },
+        {
+            "name": "Secheron_UNITY",
+            "version": "1",
+            "description": ""
+        },
+        {
+            "name": "Windows IoT",
+            "version": "11 Enterprise 2024 LTSC Value",
+            "description": "Windows Operating System",
+            "type": "operating-system"
+        },
+        {
+            "name": "SEPCOS",
+            "version": "1",
+            "description": ""
+        }
+    ]
+}

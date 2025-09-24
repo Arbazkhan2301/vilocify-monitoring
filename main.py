@@ -17,7 +17,7 @@ from vilocify.match import MissingPurlError
 # Configure your API token here
 # -------------------------
 api_config.token = "TuWDfThoCwg5tJJJibENFKtsYEn7afa2ArT73WeFCL89Z4VjefJQPFaeUT9pGocb"
-
+COST_PER_REQUEST = 0.01  # Example cost per API request in EUR
 api_request_counter = 0
 
 def count_and_call(method):
@@ -69,7 +69,9 @@ def load_bom(file_path: str) -> Bom:
 # -------------------------
 def find_vilocify_components(bom: Bom):
     matched_components = []
+    number_of_matched = 0
     unmatched_components = []
+    number_of_unmatched = 0
     
     for bom_comp in bom.components:
         try:
@@ -94,9 +96,11 @@ def find_vilocify_components(bom: Bom):
         if component:
             logger.info(f"Matched component {component.name} {component.version} (ID: {component.id})")
             matched_components.append(component)
+            number_of_matched += 1
         else:
             logger.info(f"No Vilocify component found for {vilocify_name} {vilocify_version}")
             unmatched_components.append(bom_comp)
+            number_of_unmatched += 1
 
     return matched_components, unmatched_components
 
@@ -176,7 +180,7 @@ def main(sbom_file_path: str):
     matched_components, unmatched_components = find_vilocify_components(bom)
 
     # Print matched components
-    print("\nMatched Components:")
+    print(f"\nMatched Components: {len(matched_components)}")
     if matched_components:
         for c in matched_components:
             print(f"  - {c.name} {c.version} (ID: {c.id})")
@@ -184,7 +188,7 @@ def main(sbom_file_path: str):
         print("  None")
 
     # Print unmatched components from BOM
-    print("\nUnmatched Components:")
+    print(f"\nUnmatched Components: {len(unmatched_components)}")
     if unmatched_components:
         for uc in unmatched_components:
             print(f"  - {uc.name} {uc.version} (PURL: {uc.purl})")
@@ -207,5 +211,8 @@ def main(sbom_file_path: str):
 
 
 if __name__ == "__main__":
-    main("bom.json")
+    main("SBOMs/bom25.json")
     print(f"\nTotal API requests made: {api_request_counter}")
+    print(f"Estimated weekly cost (@ {COST_PER_REQUEST} EUR/request): {api_request_counter * COST_PER_REQUEST:.2f} EUR")
+    print(f"Estimated monthly cost (@ {COST_PER_REQUEST} EUR/request): {api_request_counter * COST_PER_REQUEST * 4:.2f} EUR")
+    print(f"Estimated yearly cost (@ {COST_PER_REQUEST} EUR/request): {api_request_counter * COST_PER_REQUEST * 52:.2f} EUR")
